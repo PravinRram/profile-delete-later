@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+  <section class="card">
+    <h2>Settings</h2>
+    <p class="muted">Manage your account and profile.</p>
+
+    <div class="list-grid spacer-top">
+      <div class="list-card">
+        <div class="mutual-avatar"><i data-feather="key"></i></div>
+        <div>
+          <strong>Change Password</strong>
+          <p class="muted small">Update your login password.</p>
+        </div>
+        <a class="button outline" href="{{ url_for('change_password') }}">Open</a>
+      </div>
+
+      <div class="list-card">
+        <div class="mutual-avatar"><i data-feather="user"></i></div>
+        <div>
+          <strong>My Account</strong>
+          <p class="muted small">Edit profile details and preferences.</p>
+        </div>
+        <a class="button outline" href="{{ url_for('profile_edit') }}">My Account</a>
+      </div>
+    </div>
+  </section>
+{% endblock %}
