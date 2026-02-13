@@ -1,5 +1,5 @@
 <div style="display: flex;">
-  <img src="static/kklogo.png" alt="KK logo" width="100" height="100" style="border-radius:50%;">
+  <img src="static/img/kk_logo.png" alt="KK logo" width="100" height="100" style="border-radius:50%;">
   <h1 style="margin-left:10px;">KampongKonek</h1>
 </div>
 
